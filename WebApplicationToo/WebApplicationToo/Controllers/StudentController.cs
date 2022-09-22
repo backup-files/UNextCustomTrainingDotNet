@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Internal;
 using WebApplicationToo.Data;
 using WebApplicationToo.Data.Entities;
+using WebApplicationToo.Repositories;
 
 namespace WebApplicationToo.Controllers
 {
@@ -23,7 +24,7 @@ namespace WebApplicationToo.Controllers
             new Student {Name = "Eeeeeeeeeee", Id = 1},
         };
 
-        private readonly CollegeDbContext _context;
+        private readonly StudentRepository _repository;
 
 //        public StudentController()
 //        {
@@ -31,9 +32,9 @@ namespace WebApplicationToo.Controllers
 //        }
 
         // dependency injection
-        public StudentController(CollegeDbContext context)
+        public StudentController(StudentRepository repository)
         {
-            this._context = context;
+            this._repository = repository;
         }
 
         [HttpGet]
@@ -82,48 +83,37 @@ namespace WebApplicationToo.Controllers
         [HttpGet("v2")]
         public IEnumerable<Student> GetStudents()
         {
-            return _context.Students;
+            return this._repository.GetStudents();
         }
 
         [HttpGet("v2/{id}")]
         public Student GetStudentWith(int id)
         {
-            return _context.Students.First(e => e.Id == id);
+            return this._repository.GetStudentWith(id);
         }
 
         [HttpPost("v2")]
         public Student PostStudent(Student student)
         {
-            this._context.Students.Add(student);
-            this._context.SaveChanges();
-            return this._context.Students.First(s => s.Name == student.Name);
+            return this._repository.PostStudent(student);
         }
 
         [HttpPut("v2/{id}")]
         public Student PutStudent(int id, Student student)
         {
-            var studentToUpdate = this._context.Students.First(s => (s.Id == id));
-//            studentToUpdate.Entity.Id = student.Id;
-            studentToUpdate.Name = student.Name;
-            this._context.SaveChanges();
-            return this._context.Students.First(s => s.Id == id);
+            return this._repository.PutStudent(id, student);
         }
 
         [HttpPatch("v2/{id}")]
         public Student PatchStudent(int id, Student student)
         {
-            var studentToPatch = this._context.Students.First(s => (s.Id == id));
-            studentToPatch.Name = student.Name;
-            this._context.SaveChanges();
-            return this._context.Students.First(s => s.Id == id);
+            return this._repository.PatchStudent(id, student);
         }
 
         [HttpDelete("v2/{id}")]
         public string DeleteStudent(int id)
         {
-            this._context.Students.Remove(this._context.Students.First(s => s.Id == id));
-            this._context.SaveChanges();
-            return "Deleted.";
+            return this._repository.DeleteStudent(id);
         }
     }
 }
