@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApplicationToo.Data;
+using WebApplicationToo.Repositories;
 
 namespace WebApplicationToo
 {
@@ -29,6 +30,7 @@ namespace WebApplicationToo
         {
             services.AddControllers();
             services.AddDbContext<CollegeDbContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:College"]));
+            services.AddScoped<StudentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
