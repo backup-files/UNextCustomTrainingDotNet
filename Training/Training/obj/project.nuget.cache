@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "D1A/GDhn4X8uNRiaahAxPkONbfhEL9Gre/G2FppUUJ6Vh0abTqyGZn7qjtYM+Ya6ytVPq4A6Bn8Ql1stGHbFXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tezz-io\\source\\repos\\Training\\Training\\Basics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tezz-io\\.nuget\\packages\\pythonprint\\1.0.6\\pythonprint.1.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

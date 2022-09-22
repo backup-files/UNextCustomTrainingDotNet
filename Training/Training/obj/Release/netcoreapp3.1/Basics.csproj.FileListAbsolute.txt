@@ -1,0 +1,14 @@
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.exe
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.deps.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.runtimeconfig.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.runtimeconfig.dev.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.dll
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Release\netcoreapp3.1\Basics.pdb
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.csproj.AssemblyReference.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.AssemblyInfoInputs.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.AssemblyInfo.cs
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.csproj.CoreCompileInputs.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.dll
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.pdb
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Release\netcoreapp3.1\Basics.genruntimeconfig.cache

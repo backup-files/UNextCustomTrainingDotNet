@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\tezz-io\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tezz-io\\.nuget\\packages"
+    ]
+  }
+}

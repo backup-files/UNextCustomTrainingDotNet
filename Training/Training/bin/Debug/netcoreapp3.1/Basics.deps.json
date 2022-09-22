@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Basics/1.0.0": {
+        "dependencies": {
+          "PythonPrint": "1.0.6"
+        },
+        "runtime": {
+          "Basics.dll": {}
+        }
+      },
+      "PythonPrint/1.0.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/Print.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Basics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PythonPrint/1.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-24bq2x5xT9Nkys0gSxl6aqUo01p/TfhV+9aeVxAb+1xTtBfuwtrAfs5194HhTn3D2Wk/YFXYJhQXxV/9PrbDxw==",
+      "path": "pythonprint/1.0.6",
+      "hashPath": "pythonprint.1.0.6.nupkg.sha512"
+    }
+  }
+}

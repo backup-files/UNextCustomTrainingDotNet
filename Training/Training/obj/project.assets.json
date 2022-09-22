@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PythonPrint/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Print.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Print.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PythonPrint/1.0.6": {
+      "sha512": "24bq2x5xT9Nkys0gSxl6aqUo01p/TfhV+9aeVxAb+1xTtBfuwtrAfs5194HhTn3D2Wk/YFXYJhQXxV/9PrbDxw==",
+      "type": "package",
+      "path": "pythonprint/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/Print.dll",
+        "pythonprint.1.0.6.nupkg.sha512",
+        "pythonprint.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "PythonPrint >= 1.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tezz-io\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tezz-io\\source\\repos\\Training\\Training\\Basics.csproj",
+      "projectName": "Basics",
+      "projectPath": "C:\\Users\\tezz-io\\source\\repos\\Training\\Training\\Basics.csproj",
+      "packagesPath": "C:\\Users\\tezz-io\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tezz-io\\source\\repos\\Training\\Training\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tezz-io\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "PythonPrint": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.exe
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.deps.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.runtimeconfig.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.runtimeconfig.dev.json
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.dll
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\Training.pdb
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.csproj.AssemblyReference.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.AssemblyInfoInputs.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.AssemblyInfo.cs
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.csproj.CoreCompileInputs.cache
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.dll
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.pdb
+C:\Users\tezz-io\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\Training.genruntimeconfig.cache
