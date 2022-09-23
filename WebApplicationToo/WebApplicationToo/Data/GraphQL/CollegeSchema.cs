@@ -7,6 +7,7 @@ namespace WebApplicationToo.Data.GraphQL {
         public CollegeSchema(IServiceProvider resolver): base(resolver)
         {
             Query = (IObjectGraphType) resolver.GetService(typeof(CollegeQuery));
+            Mutation = (IObjectGraphType) resolver.GetService(typeof(CollegeMutation));
         }
     }
 }
